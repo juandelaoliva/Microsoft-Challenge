@@ -5,8 +5,8 @@ const AzureImageAnalysis = ({ imageUrl }) => {
  const [error, setError] = useState(null);
 
  useEffect(() => {
-  const apiKey = process.env.REACT_APP_API_KEY; 
-  const endpoint = process.env.REACT_APP_ENDPOINT;
+  const apiKey = process.env.REACT_APP_APIKEY; 
+  const endpoint = process.env.REACT_APP_ENDPOINT1;
 
   const visualFeatures = [
    "tags",
