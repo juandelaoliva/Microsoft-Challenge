@@ -30,6 +30,7 @@ const AzureImageAnalysis = ({ imageUrl }) => {
   const requestUrl = `${endpoint}computervision/imageanalysis:analyze?features=caption,read&model-version=latest&language=en&api-version=2023-02-01-preview&features=${visualFeatures.join(
    ","
   )}`;
+  console.log(headers)
 
   fetch(requestUrl, {
    method: "POST",
