@@ -8,6 +8,7 @@ const AzureImageAnalysis = ({ imageUrl }) => {
   const apiKey = process.env.REACT_APP_APIKEY; 
   const endpoint = process.env.REACT_APP_ENDPOINT1;
 
+  
   const visualFeatures = [
    "tags",
    "read",
